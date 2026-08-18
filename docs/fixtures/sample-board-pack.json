@@ -1,0 +1,44 @@
+{
+  "format": "careerops-board-pack/v5",
+  "schema_version": 5,
+  "metadata": {
+    "title": "SEEDED - Sample Board Pack (Fictional)",
+    "description": "Public-safe sample board pack for testing and evaluation. No real PII.",
+    "is_fictional": true
+  },
+  "boards": [
+    {
+      "id": "sample-board-1",
+      "name": "Tech Job Hunt (Fictional)",
+      "stages": [
+        { "id": "wishlist", "name": "Wishlist" },
+        { "id": "applied", "name": "Applied" },
+        { "id": "interviewing", "name": "Interviewing" }
+      ],
+      "roles": [
+        {
+          "id": "role-1",
+          "title": "Full Stack Developer",
+          "company": "Acme Corp",
+          "stage_id": "applied",
+          "location": "Remote",
+          "salary_range": "$80k - $100k",
+          "accomplishments": [
+            "Refactored legacy endpoints and improved documentation."
+          ]
+        },
+        {
+          "id": "role-2",
+          "title": "Backend Engineer",
+          "company": "Northwind Traders",
+          "stage_id": "interviewing",
+          "location": "Hybrid",
+          "salary_range": "$90k - $110k",
+          "accomplishments": [
+            "Optimized database queries and added integration tests."
+          ]
+        }
+      ]
+    }
+  ]
+}
